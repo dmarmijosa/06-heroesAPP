@@ -13,15 +13,18 @@ export class HeroPageComponent implements OnInit {
   hero?: Hero;
   private heroService = inject(HeroesService);
   private activateRouter = inject(ActivatedRoute);
-  private router = inject(Router)
+  private router = inject(Router);
 
   ngOnInit(): void {
     this.activateRouter.params
       .pipe(switchMap(({ id }) => this.heroService.getHeroById(id)))
       .subscribe((hero) => {
-        if(!hero) return this.router.navigate(['/heroes/list']);
+        if (!hero) return this.router.navigate(['/heroes/list']);
         this.hero = hero;
         return;
       });
+  }
+  goBack(): void {
+    this.router.navigate(['heroes/list']);
   }
 }
