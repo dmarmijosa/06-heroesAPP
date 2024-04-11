@@ -1,4 +1,4 @@
 export const environment = {
-    baseUrl:"http://localhost:3000"
+    baseUrl:"https://my-json-server.typicode.com/dmarmijosa/06-heroesAPP/"
 };
 //https://my-json-server.typicode.com/dmarmijosa/06-heroesAPP/heroes
