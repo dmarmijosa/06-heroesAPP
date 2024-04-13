@@ -9,7 +9,7 @@
   "heroes": [
     {
       "id": "dc-batman",
-      "superhero": "Batman",
+      "superhero": "Danny",
       "publisher": "DC Comics",
       "alter_ego": "Bruce Wayne",
       "first_appearance": "Detective Comics #27",
@@ -82,19 +82,21 @@
     },
     {
       "id": "dc-black",
-      "superhero": "Black Canary",
+      "superhero": "Paola",
       "publisher": "DC Comics",
       "alter_ego": "Dinah Drake",
       "first_appearance": "Flash Comics #86",
-      "characters": "Dinah Drake, Dinah Lance"
+      "characters": "Dinah Drake, Dinah Lance",
+      "alt_image": null
     },
     {
       "id": "marvel-spider",
-      "superhero": "Spider Man",
+      "superhero": "Alan",
       "publisher": "Marvel Comics",
-      "alter_ego": "Peter Parker",
+      "alter_ego": "Alan",
       "first_appearance": "Amazing Fantasy #15",
-      "characters": "Peter Parker"
+      "characters": "Peter Parker",
+      "alt_image": null
     },
     {
       "id": "marvel-captain",
@@ -167,6 +169,24 @@
       "alter_ego": "Norrin Radd",
       "first_appearance": "The Fantastic Four #48",
       "characters": "Norrin Radd"
+    },
+    {
+      "id": "lgSfM7m",
+      "superhero": "Tyler",
+      "publisher": "DC Comics",
+      "alter_ego": "Tyler",
+      "first_appearance": "2016",
+      "characters": "Nene león ",
+      "alt_image": "https://i.pinimg.com/originals/bf/49/96/bf4996a089075e02c9bf6977e0ec5b9f.jpg"
+    },
+    {
+      "id": "xqCLcfJ",
+      "superhero": "bela",
+      "publisher": "DC Comics",
+      "alter_ego": "bela",
+      "first_appearance": "2019",
+      "characters": "Pepa pig ",
+      "alt_image": "https://es.web.img2.acsta.net/pictures/14/02/27/12/49/374639.jpg"
     }
   ]
 }
