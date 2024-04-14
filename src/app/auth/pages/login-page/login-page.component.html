@@ -2,11 +2,11 @@
     <span class="text-lg mb-4">Login</span>
     <mat-form-field>
         <mat-label>Usuario</mat-label>
-        <input [formControl]="user" type="text" matInput placeholder="Nombre de usuario">
+        <input type="text" matInput placeholder="Nombre de usuario" value="example@email.com">
     </mat-form-field>
     <mat-form-field>
         <mat-label>Contraseña</mat-label>
-        <input type="password" matInput placeholder="Contraseña">
+        <input type="password" matInput placeholder="Contraseña" value="123445">
     </mat-form-field>
     <button (click)="onLogin()" mat-button mat-flat-button color="primary">
         <mat-icon>save</mat-icon>
